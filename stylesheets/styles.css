@@ -354,3 +354,12 @@ footer p + p {
     content: 'at https://github.com/';
   }
 }
+nav ul, footer ul {
+    padding: 0px;
+    list-style: none;
+    font-weight: bold;
+}
+nav ul li, footer ul li {
+    display: inline;
+    margin-right: 20px;
+}
